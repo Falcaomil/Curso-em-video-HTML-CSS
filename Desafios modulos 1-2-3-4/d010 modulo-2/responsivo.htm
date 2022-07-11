@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Responsividade</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /*Largura minina*/
+            max-width: 800px;/*Largura maxima*/
+            margin: auto; /*conteudo centralizado*/
+        }
+        img{
+            width: 100%;/*Largura para ver em todos dispositivo*/
+        }
+
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias beatae sunt quos tempora odio eaque architecto voluptatem tenetur laborum, minima, perspiciatis sed est quisquam enim optio vero dignissimos fuga fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero odio nam harum vel sequi expedita error maiores, architecto numquam! Iure provident architecto deleniti odio quae a, ducimus hic nesciunt porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo nostrum quo laboriosam odit, itaque reiciendis voluptatem? Quae, impedit eaque nam, iste optio esse illo nisi aut, possimus nihil consectetur.</p>
+    
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"><!--Quando a imagem chegar em 800px ira mudar-->
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias beatae sunt quos tempora odio eaque architecto voluptatem tenetur laborum, minima, perspiciatis sed est quisquam enim optio vero dignissimos fuga fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero odio nam harum vel sequi expedita error maiores, architecto numquam! Iure provident architecto deleniti odio quae a, ducimus hic nesciunt porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo nostrum quo laboriosam odit, itaque reiciendis voluptatem? Quae, impedit eaque nam, iste optio esse illo nisi aut, possimus nihil consectetur.</p>
+
+    </main>
+</body>
+</html>

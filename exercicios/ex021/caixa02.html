@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+    }
+    header{
+        
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px -8px;
+    }
+    h1{
+        box-shadow: -7px 1px 11px 6px black;
+        text-align: center;
+    }
+    nav{
+        background-color: rgb(14, 1, 1);
+        padding: 3px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.603);/*criar sombra*/
+    }
+    nav a{
+        text-decoration: none;/*tira o sumbliado do link*/
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;/*irar separ os links*/
+    }
+    nav a:hover{
+        text-decoration: underline; /*quando passar o mouse em cima mostra o link sumbliado*/
+        color: blue;
+        font-weight: bold;
+        margin-right: 30px;/*irar separ os links*/
+    }
+    main{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;/*arredondamento das bordas*/
+        box-shadow: 10px 10px 10px 10px black;
+    }
+    article{
+        background-color: lightgrey;
+    }
+    article aside{
+        background-color: lightslategrey;
+
+    }
+    footer{
+        background-color: black;
+        color: wheat;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+
+    }
+    footer p {
+        margin: 0px;
+    }
+    #bola{
+        height:  100px;
+        width: 100px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 50%;
+    }
+</style>
+
+</head>
+<body>
+   <header><!--cabechalho-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">LInk</a>
+            <a href="">LInk</a>
+            <a href="">LInk</a>
+            <a href="">LInk</a>
+            <a href="">LInk</a>
+       </nav>
+   </header>
+
+   <main><!--tag principal-->
+       <section id="assuntos">
+        <p>Esportes politicas tecnologias</p>
+       </section>
+       <section id="noticias">
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, saepe et asperiores esse exercitationem obcaecati iure architecto ipsa. Nulla ut sequi deserunt quisquam voluptatum quo, vitae quia nemo quas delectus?</p>
+
+            <aside>
+                <p>Artigo escripo por jose da silva</p>
+            </aside>
+
+        </article>
+        <article>
+
+        </article>
+       </section>
+   </main>
+   <footer><!--rodapé-->
+    <p>Desenvolvido por alex</p>
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>

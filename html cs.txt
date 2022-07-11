@@ -1,0 +1,149 @@
+Alex1998@
+
+tim berners lee- criador html
+Para voltar pasta no visual studio code ../
+-visual estudio code---
+word wrap-- quebra de linha
+size-tamanho da fonte
+
+HTML é id = em CSS é # (h1#principal ou #principal) só pode ser usado em uma tag
+HTML é class = em CSS é . pode ser usado em varias tags
+
+///extensao do google///
+web developer
+
+
+/////atalho windowa//
+f2 para renomear arquivos
+
+///HTML tags///
+<hr> linha orizontal
+<br> pular linha
+&lt;p&gt; e &lt;/p&gt;- para tag aparecer no texto  <!-- LESS THAN / GREATER THAN-->
+&#x  ;  adicionar emoji
+&nbsp; espaço
+&ensp;  espaço
+&emsp;    espaço
+<link rel="shortcut icon" href="image.png" type="image/x-icon"> coloca icone em cima da pagina.
+
+////comando visual studio code///
+ctrl+shift+p  abb (emmet: wrap with abbreviation)
+CTRL+ESPAÇO para selecionar imagem
+ctrl+clique para criar um arquivo automaticamente (pagina2.html)
+<span></span> para colocar uma class ou id em alguma parte do texto
+
+
+/////CSS/////
+text-align: justify; (TEXTO JUSTIFICADO)
+color: blue; (COR DA FONTE)
+font-family: "Arial"; (FONTE DA LETRA)
+font-size: 20px; (TAMANHO DA FONTE)
+text-decoration: underline; (SUMBLIADO)
+text-align: center (light center right comando para linha o texto)
+border: 1px solid black; borda tamanho e cor
+border-collapse: collapse; deixar as borda das tabela junta
+text-align: center; /*Aliamento horizontal left/center/right*/
+vertical-align: middle; /*Aliamento vertical top/ middle/bottom/ */
+font-weight: bold; (Fonte em negrito)
+background-image: linear-gradient(to left, white, blue);/*cor em degradê*/  (left/right/top/bottom)
+ background-attachment: fixed; /*Fundo fixo*/
+box-shadow: 5px 5px 15px  #2d262e;/*sombra do background-color*/
+text-shadow: 1px 1px 2px #2d262e;/*sombra do texto*/
+border-radius: 10px; /*borda*/
+font-size: 20px;/*tamanho da fonte 16px 1em*/ 16px geralmente = 1em
+font-weight: bolder;/*negrito*/
+font-style: italic;
+text-decoration: underline; /*sumbliado*/
+/*shorthand font
+            font-style -> font-weight -> font-size -> font-family*/ (comando para diminuir os comandos de fonte)
+font:italic bolder 2em sans-serif;
+
+ @font-face {
+        font-family: 'fix';
+        src: url('Filxgirl.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;  (colocar uma fonte do site dafont.com)
+
+text-indent: 20px;/*Deixa um espaço no começo do paragrafo*/
+div:hover{/*Quando passar o mouse por cima*/
+            background-color: yellow;}
+ display: none;/*Some com o texto*/
+display: block;/*Mostra o texto eescondido*/
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+height = altura
+width = largura
+padding-top: 21px;    padding-right:  10px; padding-bottom: 10px;   padding-left: 10px;   OU padding: 10px 10px 10px 10px;
+margin-top: 10px;    margin-right: 10px;    margin-bottom: 10px;     margin-left: 10px;   OU margin: 10px 10px 10px 10px;
+margin: auto; /*centraliza caixa no meio*/
+outline-width: 5px;  outline-style: dashed;   outline-color: salmon;   OU outline: 5px dashed salmon;
+box-shadow: 1px 1px 1px black;/*criar sombra*/
+
+
+<address> </address> para endereço
+
+
+****Tags formatação de texto
+<strong> NEGRITO </strong>
+<em> ITALICO <em>
+<mark> Marca texto </mark>
+<big>texto grande</big>       <small>texto pequeno</small> <del>texto como excluido</del>  <ins>sublinhado</ins>
+x<sup>20</sup>+3</p>      H<sub>2</sub>0</P>
+<code>document.getElementByld('teste')</code>
+<pre> <code> texto </code> </pre>
+<q> coloaca aspas no texto </q>    <blockquote> texto deslocado direita</blockquote>
+<abbr title="HyperTextMarkup Language">HTML</abbr>
+<bdo>Texto invertido </bdo>
+
+*****LISTAS
+<ol> <li> Lista ordenada </li></ol> <ol type="i"> <!--1 A a I i-->
+<ul><li> Lista não ordenada </li></ul>  <ul type="disk"><!-- disck  circle square-->
+<ol type="a" start="5">
+Lista de Denifinições <dl><dt>html </dt> <dd>Linguagem de marcaçao para a criação</dd></dl>
+
+*****LINK
+<a href="https://www.youtube.com/">Canal Gratuito</a> abre o link na mesma aba 
+<a href="https://www.youtube.com/" target="_black" rel="external">Canal Gratuito</a>  abre o link em outra aba 
+<a href="pag002.html" rel="next">2º pagina</a></p>   <a href="index.html" rel="prev">PÁGINA1</a>
+<a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">HOSTNET</a>
+<a href="logohtml200.png" download="logohtml200.png" type="image/png">imagem</a> para fazer o download direto da imagem ao clicar
+
+*****IMAGEM
+<picture><!--Imagem para varios tamanho de tela-->  EX011
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem-grande">
+</picture>
+
+*****AUDIO
+<audio src="midia/dingo.mp3" controls autoplay loop></audio> (AUTOPLAY IRA TOCAR O AUDIO AUTOMATICAMENTE) (CONTROLS ira aparecer a caixa de PLAY) (LOOP ira repetir o  audio)
+<audio preload="auto" controls autoplay loop>
+        <source src="midia/dingo.mp3" type="audio/mpeg">
+        <source src="midia/dingo.ogg" type="audio/ogg">
+        <source src="midia/dingo.wav" type="audio/wav">
+        <p>Infelizmente  seu navegador não consegue reproduzir site <a href="midia/dingo.mp3">Clique aqui para baixar o arquivo</a></p>
+</audio>
+
+*****VIDEO
+<video src="videos/meuvidio.mp4" width="500"  controls></video>
+
+<video controls>
+        <video poster="imagens/paisagem-2C.jpg" controls>  (POSTER para por a capa do video)
+        <source src="videos/meuvidio.mp4" type="video/mp4">
+        <source src="videos/meuvidio.ogv" type="video/ogg">
+ </video>
+
+<h1>Inserindo video YOUTUBE</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+****PESQUISAR
+css pseudo class/elementosc
+Boa noite.
+Encaminho meu currículo em anexo para verificação
+box model
+
