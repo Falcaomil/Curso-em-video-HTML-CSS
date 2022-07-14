@@ -14,7 +14,7 @@
     table{
         width: 350px;
         border-collapse: collapse;/* borda das tabela junta*/
-        position: relative;
+        position: relative;/*importante para fixar  cabeçhalo*/
     }
     td, th{
         border: 1px solid black;
@@ -34,12 +34,12 @@
     thead tr th{ /*Fixar o cabeçalho ao  rolar a página*/
         position: sticky;
         top: -1px;
-        background-color: gray;
+        background-color: gray;/*a cor tem  que ser a mesma do thead*/
     }
-    tbody tr:nth-child(2n-1){ /*(odd)*/
+    tbody tr:nth-child(2n-1){ /*(odd)* impa deixa a tabela zebrada*/
         background-color: blueviolet;
     }
-    tbody tr:nth-child(2n){ /*even*/  /*deixa a tabela zebrada (2n-1) (odd) (ever)*/
+    tbody tr:nth-child(2n){ /*(even) pa deixa a tabela zebrada*/
         background-color: lightblue;
 
     }
@@ -65,14 +65,14 @@
 
         <caption>Populacão das unidades federativas</caption>
         
-        <thead>
-            <tr>
-                <th scope="col">Estado</th>
+        <thead> <!--CABEÇA-->
+            <tr> 
+                <th scope="col">Estado</th><!--TITULO-->
                 <th scope="col">Populacão</th>
             </tr>
         </thead>
 
-        <tbody>
+        <tbody><!--CORPO-->
             <tr>
                 <td>São paulo</td>
                 <td class="num">45 919 049</td>
@@ -160,12 +160,12 @@
             </tr>
         </tbody>
 
-        <tfoot>
+        <tfoot> <!--RODAPÉ-->
             <th scope="row">Toal de Habitantes</th>
             <td class="num"><strong>134 175 680</strong></td>
         </tfoot>
     </table>
-
+       
 </body>
 </html>
 
