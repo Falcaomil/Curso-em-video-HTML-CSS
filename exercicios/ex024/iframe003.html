@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 330px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rem quo quis. Nobis ipsam voluptatum nesciunt in obcaecati, alias reprehenderit, hic suscipit id nulla totam et, iste reiciendis quia sapiente!</p>
+    <ul type="square">
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Seguda pagina</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam veniam dolorem ex quam? Aut et deleniti temporibus corrupti voluptate velit nemo fugit, delectus odit neque unde qui, officiis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque quam suscipit cupiditate assumenda inventore magnam possimus, nam fugiat in, saepe consectetur nemo recusandae sapiente porro amet aliquam dolorem. Assumenda!</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1> <img src='imagens/cursoemvideo-logo.png'>">
+        <p>Infelizmente seu navegador não e compativel</p>
+    </iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ab repellat commodi ipsa repellendus fuga, est id, a rerum voluptates delectus ipsum eum deserunt nulla aliquam. Architecto iusto itaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores modi eveniet libero placeat harum voluptate, vel mollitia, blanditiis saepe pariatur quaerat incidunt neque facere consequatur velit illo quibusdam omnis minus.</p>
+</body>
+</html>
